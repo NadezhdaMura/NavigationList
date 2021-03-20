@@ -16,7 +16,7 @@
         android:layout_gravity="bottom"
         app:itemIconTint="#fff"
         app:menu="@menu/nav_menu"/>
-   
+
 
 
 

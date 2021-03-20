@@ -16,6 +16,9 @@ class MainActivity : AppCompatActivity() {
         val infoFragment = InfoFragment()
         val animationFragment = AnimationFragment()
         val catFragment = CatFragment()
+        val pictureFragment = PictureFragment()
+
+
 
 
         makeCurrentFragment(homeFragment)
@@ -26,6 +29,9 @@ class MainActivity : AppCompatActivity() {
                 R.id.ic_info ->makeCurrentFragment(infoFragment)
                 R.id.ic_animation ->makeCurrentFragment(animationFragment)
                 R.id.ic_cat ->makeCurrentFragment(catFragment)
+                R.id.ic_picture ->makeCurrentFragment(pictureFragment)
+
+
 
 
             }

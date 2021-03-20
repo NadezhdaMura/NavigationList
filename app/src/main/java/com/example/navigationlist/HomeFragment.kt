@@ -18,6 +18,7 @@ class HomeFragment: Fragment() {
         return inflater.inflate(R.layout.fragment_home,container,false)
     }
 
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
 var click = requireActivity().findViewById<RelativeLayout>(R.id.click)
         var listOfColors = listOf("#FF0000","#FFA500","#A52A2A","#25383C","#DFFF00","#FFBF00",
